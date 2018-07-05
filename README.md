@@ -33,7 +33,7 @@ These instructions will use d:\data\vm\vagrant\kubernetes\01-cluster\logs direct
       - Look at the VM at the bottom with kubemaster in the name. Click on the name.
       - Click Settings from the menu bar.
       - Click on Serial Ports.
-      - Change the Path/Address to d:\your-custom-folder\kubemaster.log such as D:\data\vm\kubernetes\01-cluster\logs\kubemaster.log
+      - Change the Path/Address to d:\your-custom-folder\kubemaster.log such as d:\data\vm\vagrant\kubernetes\01-cluster\logs\kubemaster.log
       - Click OK
       - Go back to the command shell and execute: vagrant up
       - Repeat step 5 instructions to fix kubenode1 and kubenode2 log path. Make sure to use kubenode[1|2] instead of kubemaster in the instructions.
